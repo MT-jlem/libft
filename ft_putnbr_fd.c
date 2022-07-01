@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 23:29:00 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/22 23:47:43 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:19 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,3 @@ void	ft_putnbr_fd(int nb, int fd)
 		ft_putnbr_fd(n % 10, fd);
 	}
 }
-/*
-#include <fcntl.h>
-int main()
-{
-int fd;
-fd = open("aaaaaaaa.txt", O_CREAT | O_RDWR);
-ft_putnbr_fd(4545, fd);
-}
-*/

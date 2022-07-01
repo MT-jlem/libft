@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 16:12:20 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/14 00:57:40 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:18:25 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 int	ft_toupper(int c)
 {
@@ -19,9 +19,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-/*
-int main()
-{
-	printf("%c", ft_toupper(100));
-}
-*/

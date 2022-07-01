@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 21:21:58 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/27 16:51:15 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:18:34 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (ft_substr(s1, 0, end + 1));
 }
-/*
-int main()
-{
-	char s1[] = "                   ";
-
-	printf("%s ", ft_strtrim(s1, " "));
-}
-*/

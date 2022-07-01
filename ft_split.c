@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 18:50:48 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/27 15:55:39 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:07 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,12 +70,4 @@ char	**ft_split(char const *s, char c)
 	a[i] = NULL;
 	return (a);
 }
-/*
-int main()
-{
-	char **s = ft_split("hhbhb huhh huy  hyy ", ' ');
-	for (int i = 0 ; i < 5 ; i++)
-	{
-	printf ("%s \n", s[i]);
-	}
-} */
+

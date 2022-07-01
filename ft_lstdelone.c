@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 14:45:52 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/26 11:36:10 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:53 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,19 +19,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*))
 	del(lst->content);
 	free(lst);
 }
-/*
-int main()
-{
-	t_list *l;
-	t_list *d;
-
-	l = ft_lstnew(ft_strdup("abcdef"));
-	d = ft_lstnew(ft_strdup("123456"));
-	l->next = d;
-	while (l)
-	{
-		printf("%s \n", l->content);
-		l = l->next;
-	}
-}
-*/

@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 17:24:35 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/14 00:49:45 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:02 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -28,11 +28,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-/*
-int	main()
-{
-	char	s[10] = "123456789";
-
-		printf(" %s ", ft_strchr(s, '\0'));
-}
-*/

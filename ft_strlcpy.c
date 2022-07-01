@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 11:55:47 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/14 00:51:27 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:18:52 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (l);
 }
-/*
-int main()
-{
-	
-	char dst[10] = "";
-	char src[10] = "123456789";
-	printf("%zu ", ft_strlcpy(dst, src,0));
-}
-*/

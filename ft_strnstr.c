@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 18:47:58 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/14 00:56:24 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:18:41 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,14 +33,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*
- int main()
- {
-    char s[] = "aaabcabcd";
-    char d[] = "abcd";
-printf("%s\n",ft_strnstr(s,d,9));
-printf("%s", strnstr(s,d,9));
-
-}
-
-*/

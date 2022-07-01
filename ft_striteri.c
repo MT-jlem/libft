@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/21 17:32:59 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/27 16:49:04 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:18:57 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,18 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*
-void f(unsigned int i, char *c)
-{
-	i = 0;
-	if (*c >= 97 && *c <= 122)
-		*c = *c - 32;
-}
-
-int main ()
-{
-	char s[] = "abcdef";
-	ft_striteri(s, &f);
-	printf(" %s ", s);
-}
-*/

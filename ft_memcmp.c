@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 16:36:58 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/14 00:47:43 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:43 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	int s[] = {1,2,3,4,5,6,7, 8, 9};
-	int c[] = {1,2,3,4,5,5,7, 8, 9};
-
-	printf(" %d ", ft_memcmp(s, c, 6 * sizeof(int)));
-	printf(" %d ", memcmp(s, c, 6 * sizeof(int)));
-}
-*/

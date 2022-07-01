@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 14:24:18 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/05 14:36:30 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:20:22 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,4 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, '\0', n);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	int	i[5] ;
-	int *j = ft_bzero(i, 20);
-	for (int k = 0;  k < 5; k++)
-	{
-	printf("%c", j[k]);
-	}
-}
-*/
+

@@ -3,13 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mjlem <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: mjlem <mjlem@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 18:17:49 by mjlem             #+#    #+#             */
-/*   Updated: 2021/11/08 18:04:01 by mjlem            ###   ########.fr       */
+/*   Updated: 2022/07/01 21:19:28 by mjlem            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
 
 void	*ft_memset(void *b, int c, size_t len)
 {
@@ -25,15 +25,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (str);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	int	i[5] ;
-	int *j = ft_memset(i, 35, 20);
-	for (int k = 0;  k < 5; k++)
-	{
-	printf("%c ", j[k]);
-	}
-}
-*/
